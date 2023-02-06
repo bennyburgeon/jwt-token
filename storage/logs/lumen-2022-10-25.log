@@ -1,0 +1,43 @@
+[2022-10-25 03:51:50] local.ERROR: There are no commands defined in the "vendor" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"vendor\" namespace. at /var/www/html/QM/quotation_management/vendor/symfony/console/Application.php:648)
+[stacktrace]
+#0 /var/www/html/QM/quotation_management/vendor/symfony/console/Application.php(699): Symfony\\Component\\Console\\Application->findNamespace()
+#1 /var/www/html/QM/quotation_management/vendor/symfony/console/Application.php(259): Symfony\\Component\\Console\\Application->find()
+#2 /var/www/html/QM/quotation_management/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#3 /var/www/html/QM/quotation_management/vendor/illuminate/console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#4 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run()
+#5 /var/www/html/QM/quotation_management/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2022-10-25 04:49:58] local.ERROR: Class 'App\Http\Middleware\User' not found {"exception":"[object] (Error(code: 0): Class 'App\\Http\\Middleware\\User' not found at /var/www/html/QM/quotation_management/app/Http/Middleware/Authenticate.php:42)
+[stacktrace]
+#0 /var/www/html/QM/quotation_management/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle()
+#1 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#2 /var/www/html/QM/quotation_management/vendor/illuminate/pipeline/Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#3 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then()
+#4 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(263): Laravel\\Lumen\\Application->sendThroughPipeline()
+#5 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute()
+#6 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#7 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline()
+#8 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#9 /var/www/html/QM/quotation_management/public/index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2022-10-25 05:01:10] local.ERROR: Class 'App\Http\Controllers\Carbon' not found {"exception":"[object] (Error(code: 0): Class 'App\\Http\\Controllers\\Carbon' not found at /var/www/html/QM/quotation_management/app/Http/Controllers/AuthController.php:110)
+[stacktrace]
+#0 /var/www/html/QM/quotation_management/vendor/illuminate/container/BoundMethod.php(36): App\\Http\\Controllers\\AuthController->otpSend()
+#1 /var/www/html/QM/quotation_management/vendor/illuminate/container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 /var/www/html/QM/quotation_management/vendor/illuminate/container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 /var/www/html/QM/quotation_management/vendor/illuminate/container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 /var/www/html/QM/quotation_management/vendor/illuminate/container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#5 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Illuminate\\Container\\Container->call()
+#6 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(355): Laravel\\Lumen\\Application->callControllerCallable()
+#7 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController()
+#8 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction()
+#9 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#10 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute()
+#11 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#12 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline()
+#13 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#14 /var/www/html/QM/quotation_management/public/index.php(28): Laravel\\Lumen\\Application->run()
+#15 {main}
+"} 

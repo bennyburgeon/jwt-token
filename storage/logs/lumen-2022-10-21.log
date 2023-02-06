@@ -1,0 +1,42 @@
+[2022-10-21 11:21:22] production.ERROR: Class 'Tymon\JWTAuth\Providers\JWT\Provider' not found {"exception":"[object] (Error(code: 0): Class 'Tymon\\JWTAuth\\Providers\\JWT\\Provider' not found at /var/www/html/QM/quotation_management/config/jwt.php:134)
+[stacktrace]
+#0 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Application.php(688): require()
+#1 /var/www/html/QM/quotation_management/bootstrap/app.php(63): Laravel\\Lumen\\Application->configure()
+#2 /var/www/html/QM/quotation_management/public/index.php(14): require('/var/www/html/Q...')
+#3 {main}
+"} 
+[2022-10-21 11:22:04] production.ERROR: Class 'Tymon\JWTAuth\Providers\JWT\Provider' not found {"exception":"[object] (Error(code: 0): Class 'Tymon\\JWTAuth\\Providers\\JWT\\Provider' not found at /var/www/html/QM/quotation_management/config/jwt.php:134)
+[stacktrace]
+#0 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Application.php(688): require()
+#1 /var/www/html/QM/quotation_management/bootstrap/app.php(63): Laravel\\Lumen\\Application->configure()
+#2 /var/www/html/QM/quotation_management/public/index.php(14): require('/var/www/html/Q...')
+#3 {main}
+"} 
+[2022-10-21 11:22:20] production.ERROR: Class 'Tymon\JWTAuth\Providers\JWT\Provider' not found {"exception":"[object] (Error(code: 0): Class 'Tymon\\JWTAuth\\Providers\\JWT\\Provider' not found at /var/www/html/QM/quotation_management/config/jwt.php:134)
+[stacktrace]
+#0 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Application.php(688): require()
+#1 /var/www/html/QM/quotation_management/bootstrap/app.php(63): Laravel\\Lumen\\Application->configure()
+#2 /var/www/html/QM/quotation_management/public/index.php(14): require('/var/www/html/Q...')
+#3 {main}
+"} 
+[2022-10-21 11:22:23] production.ERROR: Class 'Tymon\JWTAuth\Providers\JWT\Provider' not found {"exception":"[object] (Error(code: 0): Class 'Tymon\\JWTAuth\\Providers\\JWT\\Provider' not found at /var/www/html/QM/quotation_management/config/jwt.php:134)
+[stacktrace]
+#0 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Application.php(688): require()
+#1 /var/www/html/QM/quotation_management/bootstrap/app.php(63): Laravel\\Lumen\\Application->configure()
+#2 /var/www/html/QM/quotation_management/public/index.php(14): require('/var/www/html/Q...')
+#3 {main}
+"} 
+[2022-10-21 11:23:00] production.ERROR: Class 'Tymon\JWTAuth\Providers\JWT\Provider' not found {"exception":"[object] (Error(code: 0): Class 'Tymon\\JWTAuth\\Providers\\JWT\\Provider' not found at /var/www/html/QM/quotation_management/config/jwt.php:134)
+[stacktrace]
+#0 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Application.php(688): require()
+#1 /var/www/html/QM/quotation_management/bootstrap/app.php(63): Laravel\\Lumen\\Application->configure()
+#2 /var/www/html/QM/quotation_management/public/index.php(14): require('/var/www/html/Q...')
+#3 {main}
+"} 
+[2022-10-21 11:30:46] local.ERROR: Class 'Tymon\JWTAuth\Providers\JWT\Provider' not found {"exception":"[object] (Error(code: 0): Class 'Tymon\\JWTAuth\\Providers\\JWT\\Provider' not found at /var/www/html/QM/quotation_management/config/jwt.php:134)
+[stacktrace]
+#0 /var/www/html/QM/quotation_management/vendor/laravel/lumen-framework/src/Application.php(688): require()
+#1 /var/www/html/QM/quotation_management/bootstrap/app.php(63): Laravel\\Lumen\\Application->configure()
+#2 /var/www/html/QM/quotation_management/public/index.php(14): require('/var/www/html/Q...')
+#3 {main}
+"} 
